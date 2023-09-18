@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Set your app name here -->
+	<string name="app_name">Your App Name</string>
+
+	<!-- Only appreciable when you select navigation bar logo style as "TEXT" -->
+	<string name="navigation_bar_title">@string/app_name</string>
+
+	<!-- Screen rotation on/off  -->
+	<bool name="screen_rotation">false</bool>
+
+	<!-- Asking for permission after this (time in second)  -->
+	<integer name="permission_timer">10</integer>
+
+	<!-- Attached device user unique ID with base URL -->
+	<bool name="enable_device_uuid_attach">false</bool>
+
+	<!-- Webview custom config -->
+	<bool name="enable_website_cookies">true</bool>
+	<bool name="enable_push_custom_cookies">true</bool>
+	<bool name="enable_google_login">false</bool>
+	<string name="user_agent_string">Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.0.0 Mobile Safari/537.36</string>
+</resources>

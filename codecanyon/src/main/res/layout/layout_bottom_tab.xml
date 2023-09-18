@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/tabsBarHeight"
+    android:minWidth="@dimen/tabsBarWidth"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_2"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgTab"
+        android:layout_width="@dimen/tabsBarIcon"
+        android:layout_height="@dimen/tabsBarIcon"
+        android:layout_gravity="center"
+        tools:src="@drawable/ic_home"/>
+    <TextView
+        android:id="@+id/txtTab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/text_primary"
+        tools:text="Home"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Only set key if you want to use OneSignal notification service-->
+	<!-- enable OneSignal in project -->
+	<bool name="enable_onesignal">false</bool>
+
+	<!-- Read the doc and watch the video to get onesignal id.-->
+	<string name="onesignal_app_id" translatable="false">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+
+	<!-- Enable firebase notification if you want to use -->
+	<bool name="enable_firebase_notification">false</bool>
+
+	<!-- Attached notification user unique ID/token with base URL -->
+	<bool name="enable_notification_uuid_attach">false</bool>
+
+	<!-- Notification Messaging Service -->
+	<string name="notification_title">@string/app_name</string>
+	<string name="default_notification_channel_id" translatable="false">fcm_rocketweb_channel</string>
+</resources>
